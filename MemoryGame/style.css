@@ -89,7 +89,6 @@
     margin: 1%;
     overflow: hidden;
     position: relative;
-    border-radius: 20px;
     height: 295px;
 }
 
@@ -168,7 +167,6 @@
 }
 
 
-
 #button-div a:nth-child(1) {
     background-color: #1887f8;
     mix-blend-mode: lighten;
@@ -222,7 +220,7 @@
         font-size: 4vw;
     }
 
-    .card-div {
+    .card-div-unfound {
         width: 20%;
         height: fit-content;
     }
@@ -247,19 +245,25 @@
     }
 
     #button-div a {
-        margin: -25px;
+        margin: -35px;
+        scale: 0.8;
     }
 
     .end-popup {
         width: 85%;
-        height: 75vh;
+        height: 85vh;
         box-shadow: 0 0 0 15px #04263c;
         border: solid white 3px;
+        margin-top: 8vh;
     }
 
     #button-div button {
         width: 180px;
         height: 180px;
         font-size: 24px;
+    }
+
+    .end-popup h2 {
+        margin-bottom: 4vh;
     }
 }
