@@ -236,7 +236,16 @@
         height: fit-content;
     }
 
+    .card-div-found {
+        width: 20%;
+        height: fit-content;
+    }
+
     .unfoundcard {
+        width: 100%;
+    }
+
+    .found {
         width: 100%;
     }
 
